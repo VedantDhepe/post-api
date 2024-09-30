@@ -25,14 +25,14 @@ let posts = [
     },
     {
         id:uuidv4(),
-        user:"Vishnal",
+        user:"Vishal",
         content:"I am learning Civil Engineering"
     }
 ];
 
 
 app.get("/", (req,res)=>{
-    res.send("This is root page");
+    res.render('post.ejs');
 });
 
 // for getting response : get
