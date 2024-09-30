@@ -11,14 +11,14 @@
         <div class="post">
             <h2 class="user">@<%= post.user%></h2>
             <p><%=post.content%></p>
-            <a href="http://localhost:8080/posts/<%=post.id%>">View Details</a>  
-            <a href="http://localhost:8080/posts/<%=post.id%>/edit">Edit</a>
+            <a href="https://post-api-production-7e35.up.railway.app/posts/<%=post.id%>">View Details</a>  
+            <a href="https://post-api-production-7e35.up.railway.app/posts/<%=post.id%>/edit">Edit</a>
             
             <form method="post" action="/posts/<%=post.id%>?_method=delete">
                 <button>Delete</button>
             </form> 
         </div>
     <%}%>
-    <a href="http://localhost:8080/posts/new">Add a post</a>
+    <a href="https://post-api-production-7e35.up.railway.app//new">Add a post</a>
 </body>
 </html>
