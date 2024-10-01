@@ -1,14 +1,20 @@
+body{
+    background-color: #231d1f;
+}
 .post{
-    background-color: blanchedalmond;
-    color: maroon;
+    color: #03bbd4;
 }
 .user{
     font-style: italic;
 }
 button{
-    border: 2px solid red;
-    border-radius: 15%;
+    background-color: #e2099d;
+    border: 2px solid rgb(156, 131, 131);
+    border-radius: 20px;
     margin: 5px;
+}
+button:hover{
+    background-color:#b48fa8 ;
 }
 form{
     display: inline;

@@ -6,34 +6,48 @@
     <title>post</title>
     <style>
         body{
-            display: flex;
-            justify-content: center;
+            margin: 15% 5%;
+            background-color: rgb(61, 49, 49);
         }
         .container{
-            margin-top: 20%;
+            margin-top: 10%;
+            align-content: center;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         h1{
             color: white;
             display:inline;
         }
-        body{
-            background-color: rgb(61, 49, 49);
-        }
+    
         button{
-            background-color: yellow;
+            background-color: gold;
             width:100px;
             height: 50px;
+            font-size: large;
+            border: 2px solid gold;
+          
+
         }
-        form{
-            margin: 50px 50px;
-            display:inline;
+        button:hover{
+            background-color: rgb(204, 188, 188);
+            color: rgb(10, 4, 4);
         }
+        footer{
+            margin: 40vh 0px 0px 35vw;
+            color: silver;
+        }
+        
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Postgram :- </h1>
+        <h1>Welcome to Postgram </h1>
     <form action="/posts"><button>See posts</button></form>
     </div>
+    <footer>*The website is under development...</footer>
 </body>
 </html>

@@ -12,7 +12,7 @@
             <h2 class="user">Username : @<%= post.user%></h2>
             
             <p>About : <%=post.content%></p>
-            <hr>
+            
             <a href="https://post-api-production-7e35.up.railway.app/posts/<%=post.id%>"><button>View Details</button></a>  
             <a href="https://post-api-production-7e35.up.railway.app/posts/<%=post.id%>/edit"><button>Edit</button></a>
             
@@ -20,7 +20,7 @@
             <form method="post" action="/posts/<%=post.id%>?_method=delete">
                 <button>Delete</button>
             </form> 
-            
+            <hr>
         </div>
     <%}%>
     <a href="https://post-api-production-7e35.up.railway.app/posts/new"><button>Add a post</button></a>
